@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply max-w-full md:max-w-96 p-6 border-t-4 shadow-lg rounded-lg flex flex-col gap-3;
+  }
+  .headerCard {
+    @apply font-pop font-bold text-2xl text-neutral-darkBlue;
+  }
+  .paraCard {
+    @apply font-pop font-medium text-base text-neutral-grayishBlue;
+  }
+}
